@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .services-label{
+        @apply pl-3 text-xl font-montserrat font-medium;
+    }
+    .services-icon{
+        @apply bg-white rounded-md p-3 text-3xl;
+    }
+    .services-icon-cont{
+        @apply bg-gradient-to-r from-gradient1 to-gradient2 inline-block p-1 rounded-lg;
+    }
+}
