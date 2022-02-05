@@ -4,6 +4,10 @@ module.exports = {
     fontFamily: {
       'montserrat': ['Montserrat']
     },
+    borderWidth: {
+      DEFAULT: '5px',
+      '3': '3px',
+    },
     extend: {
       colors: {
         'light-grey': '#cacaca',
